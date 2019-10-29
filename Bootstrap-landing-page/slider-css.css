@@ -1,0 +1,96 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+  } 
+
+
+  /*for-slideshow*/
+.carousel-caption:hover{
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.carousel-caption{
+    background-size: cover;
+    height: 55%;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item img{
+    height: 655px;
+}
+
+
+/*for-navigation*/
+.navbar{
+    background: rgb(190, 60, 60);
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.navbar-collapse:hover{
+    text-decoration-line: none;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.navbar-brand{
+    justify-content: flex-start;
+}
+
+.dropdown-menu{
+    padding-top: 10px;
+    background-color: rgb(190, 60, 60) ;
+}
+
+.dropdown-item{
+    text-align: center;
+}
+
+.dropdown-menu:hover{
+    text-decoration-line: none;
+}
+
+.dropdown-item:hover{
+    background-color:tomato;
+    border-radius: 5%;
+}
+
+
+/*for-cards*/
+.card-img-overlay{
+    background:rgba(0,0,0,0.4);
+    padding-top: 50px;
+    text-align: center;
+}
+.card-img-overlay:hover{
+    margin: 10px; 
+}
+.card{
+    margin: 20px;
+}
+.card:hover{
+    color: rgb(190, 60, 60);
+}
+.container-fluid{
+    margin-bottom: 50px;
+}
+
+/*for-footer*/
+footer{
+    background-color: rgb(190, 60, 60);
+}
+div:hover{
+    text-decoration: none;
+    color: unset;
+}
